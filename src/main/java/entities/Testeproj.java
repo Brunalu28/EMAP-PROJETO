@@ -16,7 +16,10 @@ public class Testeproj {
 		Reservatorio r = c.CotaAreaVolume("Calculo CotaAreaVolume/ testesdaw2", reservatorio);
 		
 		assertNotNull (r);
+		
 		assertEquals("Teste Daw",r.getNomeReservatorio);
+		
+		
 		
 		
 		
