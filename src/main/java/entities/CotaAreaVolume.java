@@ -13,10 +13,12 @@ public class CotaAreaVolume {
 	private Integer cota;
 	private Integer volume;
 	private Integer area;
-//	
+	
+//*	errado isso aq
 //	@ManyToMany
 //	@JoinColumn
-//	public ArrayList<Reservatorio>possui;
+//	public ArrayList<Reservatorio>possui; *
+	
 	public Long getId() {
 		return id;
 	}

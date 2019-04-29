@@ -1,5 +1,6 @@
 package entities;
 
+import java.util.ArrayList;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -110,12 +111,4 @@ public class Reservatorio {
 			return false;
 		return true;
 	}
-	
-	
-	
-	
-	
-	
-	
-
 }

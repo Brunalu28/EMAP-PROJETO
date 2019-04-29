@@ -11,19 +11,13 @@ import org.junit.Test;
 public class Testeproj {
 	@Test
 	void CotaAreaVolume() {
-		ArrayList<Reservatorio> reservatorio = new ArrayList <Reservatorio>
+		ArrayList<Reservatorio> reservatorio = new ArrayList<Reservatorio>();
 		
-		Reservatorio r = c.CotaAreaVolume("Calculo CotaAreaVolume/ testesdaw2", reservatorio);
+		Reservatorio r = r.CotaAreaVolume("Calculo CotaAreaVolume/ testesdaw2", reservatorio);
 		
 		assertNotNull (r);
 		
-		assertEquals("Teste Daw",r.getNomeReservatorio);
-		
-		
-		
-		
-		
-		
+		assertEquals("Teste Daw",r.getNome());
 		
 	}
 	
