@@ -7,7 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class QualidadeAgua {
+public class QualidadeAgua extends DAO {
+	
 	@Id
 	private Long IdQ;
 	private Integer pH;
@@ -116,6 +117,10 @@ public class QualidadeAgua {
 		} else if (!pH.equals(other.pH))
 			return false;
 		return true;
+	}
+	public QualidadeAgua(Class classe) {
+		super(classe);
+		
 	}
 
 	

@@ -6,7 +6,8 @@ import javax.persistence.Id;
 
 
 @Entity
-public class Usuario {
+public class Usuario extends DAO {
+	
 	@Id
 	private Long idN;
 	private String nome;
@@ -65,5 +66,9 @@ public class Usuario {
 		return true;
 	}
 	
+	public Usuario(Class classe) {
+		super(classe);
+		
+	}
 
 }

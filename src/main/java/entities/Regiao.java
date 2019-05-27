@@ -10,7 +10,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Regiao {
+public class Regiao extends DAO {
+
 	@Id
 	private Long idR;
 	private String microR;
@@ -101,7 +102,11 @@ public class Regiao {
 		return true;
 	}
 
-	
+	public Regiao(Class classe) {
+		super(classe);
+		
+	}
+
 	
 	
 	

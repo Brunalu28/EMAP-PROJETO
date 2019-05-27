@@ -6,7 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Pluviosidade {
+public class Pluviosidade extends DAO {
+	
 	@Id
 	private Long idP;
 	private Integer max;
@@ -66,8 +67,10 @@ public class Pluviosidade {
 			return false;
 		return true;
 	}
-	
-	
+	public Pluviosidade(Class classe) {
+		super(classe);
+		
+	}
 	
 	
 

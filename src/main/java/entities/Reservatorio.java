@@ -9,7 +9,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Reservatorio {
+public class Reservatorio extends DAO {
+	
 	private String nome;
 	private String bacia;
 	private Integer capmaxima;
@@ -110,5 +111,10 @@ public class Reservatorio {
 		} else if (!qual.equals(other.qual))
 			return false;
 		return true;
+	}
+	
+	public Reservatorio(Class classe) {
+		super(classe);
+		
 	}
 }

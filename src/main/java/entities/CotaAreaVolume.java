@@ -6,7 +6,8 @@ import java.sql.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
-public class CotaAreaVolume {
+public class CotaAreaVolume extends DAO {
+	
 	@Id
 	private Long id;
 	private Date dataDeEstudo;
@@ -97,7 +98,9 @@ public class CotaAreaVolume {
 		return true;
 	}
 	
-	
+	public CotaAreaVolume(Class classe) {
+		super(classe);
+	}
 	
 
 }

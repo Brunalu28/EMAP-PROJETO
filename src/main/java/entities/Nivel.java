@@ -6,7 +6,8 @@ import java.sql.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
-public class Nivel {
+public class Nivel extends DAO {
+	
 	@Id
 	private Long id;
 	private Date dataDeRegistro;
@@ -89,6 +90,10 @@ public class Nivel {
 		} else if (!volume.equals(other.volume))
 			return false;
 		return true;
+	}
+	public Nivel(Class classe) {
+		super(classe);
+		
 	}
 	
 	//possui erro aq 
