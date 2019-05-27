@@ -1,6 +1,6 @@
 package entities;
 
-public class Identificavel {
+public interface Identificavel {
 
 	public Long getId();
 	
