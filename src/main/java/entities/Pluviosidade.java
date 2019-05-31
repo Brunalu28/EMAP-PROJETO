@@ -1,6 +1,7 @@
 package entities;
 
 import java.util.ArrayList;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -12,6 +13,8 @@ public class Pluviosidade extends DAO {
 	private Long idP;
 	private Integer max;
 	private Integer min;
+	
+	public Set<Regiao>pertenceRegiaos;
 	
 	public Long getIdP() {
 		return idP;

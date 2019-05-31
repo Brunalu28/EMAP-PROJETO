@@ -2,6 +2,7 @@ package entities;
 
 
 import java.sql.Date;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -15,11 +16,9 @@ public class CotaAreaVolume extends DAO {
 	private Integer volume;
 	private Integer area;
 	
-//*	errado isso aq
-//	@ManyToMany
-//	@JoinColumn
-//	public ArrayList<Reservatorio>possui; *
+	public Set<Reservatorio>possui;
 	
+
 	public Long getId() {
 		return id;
 	}

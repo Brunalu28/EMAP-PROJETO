@@ -2,6 +2,7 @@ package entities;
 
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -17,6 +18,9 @@ public class QualidadeAgua extends DAO {
 	private Integer OxigenioDissolvido;
 	private Integer TemperaturaDaAgua;
 	private Date data;
+	
+	public Set<Reservatorio>possui;
+	
 	public Long getIdQ() {
 		return IdQ;
 	}
