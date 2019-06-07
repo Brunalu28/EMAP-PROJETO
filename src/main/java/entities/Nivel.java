@@ -5,6 +5,8 @@ import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
+import entitiesextendsDAO.DAO;
 @Entity
 public class Nivel extends DAO {
 	

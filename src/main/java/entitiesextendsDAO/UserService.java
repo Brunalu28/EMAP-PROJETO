@@ -1,4 +1,4 @@
-package entities;
+package entitiesextendsDAO;
 
 import javax.inject.Inject;
 

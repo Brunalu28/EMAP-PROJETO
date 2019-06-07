@@ -12,7 +12,7 @@ public interface InterfaceProjetoEmap {
 	
 	public Pluviosidade pluviosidade(Pluviosidade calcular, Pluviosidade calcularMin, Pluviosidade calcularMax );
 
-	public Noticias noticias(Noticias noticia, );
+	public Noticias noticias(Noticias noticia, String categoria);
 	
 }
 	

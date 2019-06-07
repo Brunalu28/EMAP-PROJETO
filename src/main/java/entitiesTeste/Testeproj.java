@@ -1,4 +1,4 @@
-package entities;
+package entitiesTeste;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,6 +7,9 @@ import static org.junit.Assert.assertNotNull;
 import java.util.ArrayList;
 
 import org.junit.Test;
+
+import entities.InterfaceProjetoEmap;
+import entities.Reservatorio;
 
 public class Testeproj {
 	//ajeitar

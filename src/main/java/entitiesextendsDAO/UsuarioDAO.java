@@ -1,6 +1,8 @@
-package entities;
+package entitiesextendsDAO;
 
 import java.util.List;
+
+import entities.Usuario;
 
 public class UsuarioDAO extends DAO<Identificavel> {
 		

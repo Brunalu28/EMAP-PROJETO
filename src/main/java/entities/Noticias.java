@@ -2,6 +2,8 @@ package entities;
 
 import java.util.Set;
 
+import entitiesextendsDAO.DAO;
+
 public class Noticias extends DAO{
 	
 	private long idN;

@@ -4,6 +4,7 @@ package entities;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import entitiesextendsDAO.DAO;
 
 @Entity
 public class Usuario extends DAO {

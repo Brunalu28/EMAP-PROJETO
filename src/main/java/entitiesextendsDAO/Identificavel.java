@@ -1,4 +1,4 @@
-package entities;
+package entitiesextendsDAO;
 
 public interface Identificavel {
 
